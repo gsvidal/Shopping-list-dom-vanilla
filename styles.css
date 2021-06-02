@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  background-color: rgb(218, 179, 255);
+}
+
+h1 {
+  padding: 20px;
+  color: purple;
+}
+div {
+  padding: 20px;
+}
+div input {
+  padding: 4px;
+  border-radius: 3px;
+  background-color: rgb(228, 251, 255);
+  border: 1px solid rgb(70, 70, 70);
+
+}
+.button {
+  padding: 4px 8px;
+  border-radius: 10px;
+  color: rgb(14, 117, 0);
+  background-color: rgb(173, 255, 162);
+  border: 1px solid rgb(14, 117, 0);
+}
+.button--delete-item {
+  font-size: 8px;
+  margin-left: 20px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 180, 180);
+  border: 1px solid rgb(255, 0, 0);
+}
+
+li {
+  padding-left: 0px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+/* li button {
+  font-size: 8px;
+  margin-left: 20px;
+  color: rgb(255, 0, 0);
+} */
